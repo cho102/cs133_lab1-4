@@ -1,11 +1,11 @@
 /*Problem 1 */
-DROP TABLE Department Cascade;
-DROP TABLE Professor Cascade;
-DROP TABLE Project Cascade;
-DROP TABLE Graduate Cascade;
-DROP TABLE Dept_Prof_Work Cascade;
-DROP TABLE Proj_Prof_Work Cascade;
-DROP TABLE Proj_Graduate_Work Cascade;
+DROP TABLE IF EXISTS Department;
+DROP TABLE IF EXISTS Professor;
+DROP TABLE IF EXISTS Project;
+DROP TABLE IF EXISTS Graduate;
+DROP TABLE IF EXISTS Dept_Prof_Work;
+DROP TABLE IF EXISTS Proj_Prof_Work;
+DROP TABLE IF EXISTS Proj_Graduate_Work;
 
 CREATE TABLE Department	(	dno CHAR(11) NOT NULL, 	
 				dname CHAR(30), 
